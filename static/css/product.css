@@ -1,0 +1,65 @@
+body {
+    background-color: #fdf1ec;
+  }
+  .heading{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 00.2em;
+  }
+  .container {
+    height: auto;
+    width: auto;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    /* from CSS matic https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(90, 81, 81, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  }
+  .card-img-top{
+    float: left;
+    height: 300px;
+    width: 273px;
+  }
+  .card-img-top img {
+    border-radius: 7px 0 0 7px;
+  }
+  .card-text{
+    height: 100px;
+    width: 227px;
+  }
+  .card-title {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.2em;
+  }
+  span {
+    display: inline-block;
+    height: 10px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+  }
+  .btn-primary{
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 40px 0 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #0f498b;
+    cursor: pointer;
+    outline: none;
+  }
+ .btn-primary:hover {
+    background-color: #6cc6c9;
+  }
